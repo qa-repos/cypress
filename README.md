@@ -1,2 +1,2 @@
 # cypress
-Cypresstests for https://demoqa.com/ website
+Cypress tests for https://demoqa.com/ website
