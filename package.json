@@ -1,0 +1,33 @@
+{
+  "name": "cypress",
+  "version": "1.0.0",
+  "description": "Cypress tests for https://demoqa.com/ website",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "cypress": "10.11.0",
+    "eslint-plugin-cypress": "^2.12.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qa-repos/cypress.git"
+  },
+  "keywords": [
+    "cypress",
+    "cypress-tests"
+  ],
+  "author": "Pokhilenko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qa-repos/cypress/issues"
+  },
+  "homepage": "https://github.com/qa-repos/cypress#readme",
+  "devDependencies": {
+    "eslint": "^8.27.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0"
+  }
+}
