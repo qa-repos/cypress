@@ -3,4 +3,7 @@ describe('empty spec', () => {
     cy.visit('https://example.cypress.io');
     cy.url().should('eq', 'https://example.cypress.io/');
   });
+  it('fails', () => {
+    cy.visit('https://example.cypress.io');
+    cy.url().should('eq', 'https://example.cypress.io/');
 });
